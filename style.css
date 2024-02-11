@@ -1,0 +1,53 @@
+* {
+    background-color: #F5F5DC;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 36px;
+    
+    text-align: center;
+    
+}
+
+.homebuttons {
+    background-color: rgb(255, 187, 0);
+    border-width: 3px;
+    position: relative;
+    top: 50%;
+    left: 45%;
+}
+
+.recipeimages {
+    position: relative;
+    left: 41%;
+    height: 250px;
+    width: 250px;
+}
+
+.headings {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ingrident {
+    text-align: left;
+ 
+   
+}
+
+.ingrident.unordered {
+    font-style: italic;
+    
+}
+
+.ingridient.ordered {
+    font-size: 16px;
+    
+}
+
+
+.description {
+    text-align: left;
+}
