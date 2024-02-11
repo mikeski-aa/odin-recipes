@@ -2,42 +2,39 @@
     background-color: #F5F5DC;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-
 }
+
 
 h1 {
     font-size: 36px;
     text-align: center;
     border: 5px;
     margin-bottom: 50px;
-    border-color: black;
-    border-width: 20px;
-    border-bottom: 1rem solid;
+    border-bottom: dotted rgb(51, 85, 1) 15px;
     padding-bottom: 25px;
+}
 
-    
+.mainmenu {
+    border-bottom: rgb(51, 85, 1) 1rem dotted;
 }
 
 #lasagnalink, #guaclink, #buffalolink, #nachoslink {
+    font-size: 25px;
+    display: block;
+    margin: 0 auto;
     background-color: rgb(255, 187, 0);
+    margin-bottom: 25px;
+    width: fit-content;
     padding: 0.5rem;
     border-radius: 2px;
-    border: 1px dashed;
-    border-color: green;
-    border-width: 1px;
-   
+    border: 5px dotted;
+    border-color: rgb(51, 85, 1);
+    border-width: 5px;
 }
-
-.mainmenu li {
-    margin-bottom: 50px;
-    margin-left: 45%;
-    padding: 0;
-}
-
-
 
 .recipeimages {
-    margin-left: 40%;
+    display: block;
+    margin: 0 auto;
     height: 250px;
     width: 250px;
     margin-bottom: 50px;
@@ -51,37 +48,52 @@ h1 {
     margin-top: 50px;
 }
 
-.ingrident {
-margin-left: 35%; 
-border: solid;
-border-color: black;
-inline-size: 25rem;
-    
- 
- 
-}
-
-.ingrident.unordered {
-    font-style: italic;
-    border-style: dotted;
-    
-}
-
-.ingridient.ordered {
-    font-size: 16px;
-    border-style: dashed;
-    
-}
-
-
 .desc {
     text-align: center;
+    width: 500px;
     border: solid;
-    border-color: black;
-    padding: 15px;
+    border-color: rgb(51, 85, 1);
+    background-color: #94949430;
+    margin: 0 auto;
+    
+}
+
+.ingr li{
+    margin: 0 auto; 
+    border-color: rgb(51, 85, 1);
+    background-color: #94949430;
+    padding-left: 10px;
+    
+}
+.ingr {
+    margin:0 auto;
+    list-style-position:inside;
+    padding-left: 0;
+}
+.ingr.unordered {
+    font-style: italic;
+    border-style: dotted;
+    border-color: rgb(51, 85, 1);
+    inline-size: 25rem;
+}
+
+.ingr.unordered.lasagna, .ingr.unordered.guac {
+    inline-size: 10rem;
+}
+
+.ingr.ordered {
+    font-size: 16px;
+    border-style: dashed;
+    inline-size: 25rem;
+ 
 }
 
 .headings.description {
-    border-top: 1rem solid;
+    border-top: 1rem dotted rgb(51, 85, 1);
     padding-top: 15px;
+}
+
+.test {
+    background-color: #94949430;
+  
 }
